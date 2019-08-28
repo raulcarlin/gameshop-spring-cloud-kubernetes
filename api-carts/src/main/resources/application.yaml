@@ -1,0 +1,19 @@
+spring:
+  application.name: api-carts
+  cloud:
+    kubernetes:
+      reload.enabled: true
+
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
+
+ribbon:
+  http:
+    client:
+      enabled: true

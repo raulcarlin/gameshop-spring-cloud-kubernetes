@@ -1,0 +1,3 @@
+rootProject.name = 'gameshop-spring-cloud-kubernetes'
+include 'api-carts'
+include 'api-users'
